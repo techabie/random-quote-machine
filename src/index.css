@@ -1,0 +1,12 @@
+/*This is for the fading out and in after clicking new quote btn*/
+/*unsure in .fade-wrapper help ease the transition or not.
+ I can detect any changes between have this class and not having this class*/
+.fade-wrapper {
+  transition: opacity ease-in-out;
+}
+.fade-out {
+  opacity: 0;
+}
+.fade-in {
+  opacity: 1;
+}
